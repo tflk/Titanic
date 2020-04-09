@@ -11,8 +11,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-
-gender = pd.read_csv("D:/Simplon/Brief projet/Titanic/gender_submission.csv")
 test = pd.read_csv("D:/Simplon/Brief projet/Titanic/test.csv")
 train = pd.read_csv("D:/Simplon/Brief projet/Titanic/train.csv")
 

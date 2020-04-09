@@ -15,7 +15,6 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-gender = pd.read_csv("D:/Simplon/Brief projet/Titanic/gender_submission.csv")
 test = pd.read_csv("D:/Simplon/Brief projet/Titanic/test.csv")
 train = pd.read_csv("D:/Simplon/Brief projet/Titanic/train.csv")
 
